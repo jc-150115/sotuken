@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             prism:ViewModelLocator.AutowireViewModel="True"
              xmlns:local="clr-namespace:Sample0003"
-             x:Class="Sample0003.MainPage">
+             x:Class="Sample0003.MainPage"
+             Title="TOP">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <BoxView Color="Red" VerticalOptions="StartAndExpand" />
+            <BoxView Color="Blue" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
