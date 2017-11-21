@@ -7,7 +7,7 @@
              Title="TOP">
     <ContentPage.Content>
         <StackLayout>
-            <BoxView Color="Red" VerticalOptions="StartAndExpand" />
+            <BoxView Color="Red" VerticalOptions="StartAndExpand" />//
             <BoxView Color="Blue" />
         </StackLayout>
     </ContentPage.Content>
