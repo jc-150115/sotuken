@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             xmlns:local="clr-namespace:Sample0003"
              x:Class="Sample0003.MainPage"
              Title="TOP">
     <ContentPage.Content>
